@@ -122,9 +122,6 @@ public class BOTP {
 				// get the xor of the value
 				int xor = cchars[0] ^ cchars[1];
 				
-				int c0 = (int) cchars[0];
-				int c1 = (int) cchars[1];
-				
 				// if we have a space
 				if ((xor >= 64)&&(xor < 128)) {
 					// then we should figure out if the index is c[0] or c[1]
